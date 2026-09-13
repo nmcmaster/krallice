@@ -1,0 +1,73 @@
+---
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/600.css';
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/600.css';
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Image for the fixed page backdrop. Defaults to the site poster;
+      album pages pass their cover art, which renders blurred + darkened. */
+  backdrop?: string;
+}
+
+const {
+  title = 'Krallice',
+  description = 'Krallice — discography and tablatures.',
+  backdrop,
+} = Astro.props;
+
+const backdropImage = backdrop ?? '/krallicetour_final.webp';
+const ambient = Boolean(backdrop);
+
+
+const site = Astro.site ?? new URL('https://krallice.com');
+const ogImage = new URL('/og.png', site).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#050505" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class="min-h-screen font-sans text-stone-100 antialiased">
+    <div aria-hidden="true" class="fixed inset-0 -z-10 overflow-hidden">
+      <div
+        class:list={[
+          'absolute inset-0 bg-cover',
+          ambient ? 'bg-center scale-110 opacity-70 blur brightness-150 saturate-150' : 'bg-top',
+        ]}
+        style={`background-image: url('${backdropImage}')`}
+      >
+      </div>
+    </div>
+    <div
+      class="min-h-screen"
+      style="background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.82) 25%, rgba(0,0,0,0.82) 75%, rgba(0,0,0,0.5))"
+     
+    >
+  <!-- <div
+      class="min-h-screen"
+       style="background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.55) 6%, rgba(0,0,0,0.66) 12.5%, rgba(0,0,0,0.77) 19%, rgba(0,0,0,0.82) 25%, rgba(0,0,0,0.82) 75%, rgba(0,0,0,0.77) 81%, rgba(0,0,0,0.66) 87.5%, rgba(0,0,0,0.55) 94%, rgba(0,0,0,0.5))">
+   -->
+       <Nav />
+      <slot />
+    </div>
+  </body>
+</html>
