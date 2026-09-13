@@ -10,7 +10,7 @@ releaseDate: 2022-01-28
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
 # Export ~1600×1600 WebP or JPEG (q75–80), aiming under ~500 KB — files in
 # public/ ship as-is, no build-time optimization:
-coverArt: ""
+coverArt: "/albums/2022-crystalline-exhaustion.webp"
 # backdropArt: "/albums/2012-years-past-matter-background.jpg"
 
 # A track is a plain title string, or a mapping for extra data.
@@ -72,125 +72,80 @@ tracks:
           clogging divine arteries
           choking the presence
 
-    - title: "Mass for the Strangled"
-      initiated: "Marston / Weinstein"
-      lyricsBy: "Barr"
-      lyrics: |
-          Too bright to be…
-          the former judgement of space 
-          Strangled freedom has no place in this life
-          Be it granted physical or mental
-          In a passage of pain
-          this crowning shall push the usage back
-            
-          Be it granted physical or mental
-          In a passage of pain
-          Hiding without reason
-          and leaving without either
-
-          A mass for the strangled
-          without the redness of a putrid forgiveness
-          the lakes flood out of understanding
-          of quieter times
-
-          with the eyes of the dead sloth
-          and the piles of burned bears
-          trading their likeness
-          for the betrayal of this suffering bloodline    
-
-          The magnitude of sanctity
-          shouldn’t betray these moments of thought
-          Counting back 
-          one still finds the faces little changed
-    - title: "Sapphire"
-      initiated: "Marston / Weinstein"
+    - title: "Archlights"
+      initiated: "McMaster"
       lyricsBy: "McMaster"
       lyrics: |
-          To brighten this sinking wisdom
-          in flights of yearning
+          Psychagogue
+          Memory of words, memory of flesh
+          The last remnant memory destroys
+          Ghostly, choral, anachronistic
+          And so they are always returning to us, the dead
 
-          Like the sapphire
-          undiscovered as a life source
+          A vertiginous sense that the past has erupted
+          That the dead are with us
+          An invisible twin, the reverse of a shadow
 
-          The sound envelopes
-          destroy and create 
-          in a wicked mimicry
-          of the one called man.
-    - title: "Disgust Patterns"
-      initiated: "Marston / Weinstein"
+          Printed on the eye
+          Stored in the brain
+          Coded over skin
+          Transmitted by blood
+
+          The lasciviousness of ruin, moving from melancholy to mourning
+          Continuous motion of the spirit
+
+          Mythopathic moment, the ground possessed
+          Twin obsessions of death and peace
+
+          The god now directs four horses, fire-breathing, day by day through the chamber of heaven
+          Blue of the ether, divine form
+
+          “As for my own dreams, the ones I lost would make it through. I should’ve known, some things just follow until they take”*
+
+          Twin obsessions of death and peace
+
+          * Michael Herr, “Dispatches”
+    - title: "Dismal Entity"
+      initiated: "Barr"
       lyricsBy: "Barr"
       lyrics: |
-          Messengers of light
-          lame their followers with words 
-          of unforgiving merciless stress
-          claim distinction for glowing
-          challenge the unblinking eye
-          tears streaming forth
-          in disgust patterns
+          dilated breath
+          wandering through crystal webbing
+          vast arctic air forms
 
-          Shout back through time
-          to speak a withered idea 
-          in a withered language
-          just to finish
+          vapor clouds of the pure
+          silently seeping
+          separating cell matter
+          dehydrating bodies
+          flaking flesh apart
 
-          Force a word to be more
-          until the tongue leaks poison
-    - title: "Demonic Wealth"
-      initiated: "Marston / Weinstein"
-      lyricsBy: "Barr"
+          unfrozen pristine anger awakens 
+          a dismal entity entwined within us
+    - title: "Crystalline Exhaustion"
+      initiated: "Marston"
+      lyricsBy: "Marston"
       lyrics: |
-          The elk moans
-          bending under the weight of cells
-          years before the passing
-          of demonic wealth
+          teeming emptiness erases all time
 
-          the leaves wail the sadness of
-          those stricken silent   
+          endless distance, utter void
+          subsurface quartzite hive
+          lattice sentience overthrown
+          dismantled sand
 
-          To be of the growth and of the end
-          To be of the growth and of the end
+          questioned life, assured death
+          estimated existence
 
-          Solid be the fragments of heart
-          and its continued diminishment
-          Judged and remembered time and again
-          as one to underestimate and ever feel
-          time’s cold push cannot disintegrate
-          such longing and such regret
-    - title: "Resistant Strains"
-      initiated: "Marston / Weinstein"
-      lyricsBy: "Barr"
-      lyrics: |
-          Tributary of infest
-          Seeds of transplanted doubt
-          Root rot endless
-          In visions countless
-
-          Chained to chimneys
-          Of the infinite inferno
-          Blanched white bone radiance
-          The only moving thing
-
-          Scenes of the serene
-          summon themselves
-          Endorphinol blotting
-          Delused into peace and nightmare
-
-          Larynx of the former
-          one who forms
-          Blend in amongst the formed
+          unique natures
+          them all enraptured
+          reassemble all fundament
+          reshaped empyrean
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
-    All songs initiation: Lev
-    All songs songwriting: Colin
-    All songs words: Mick
-
-    Isolation recording sessions: Drums recorded at the Mouth 3 on a phone
-    Vocals recorded in the car by the swamp
-    Bass recorded.
-    Guitars, keyboards, other bass, reamping, mixing, mastering at Menegroth the thousands cave.
+    recorded, mixed, mastered in December 2021 by Colin at Menegroth, The Thousandth Cave
+    license
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
@@ -199,13 +154,15 @@ lineup:
     - "Colin Marston | Guitars, Keyboards, Bass"
     - "Mick Barr | Vocals"
     - "Nicholas McMaster | Bass"
+    # Mick Barr - bass, vocals
+    # Colin Marston - keyboards, additional drums, vocals
+    # Nicholas McMaster - guitar, vocals
+    # Lev Weinstein - drums
 
 # Paste the full Bandcamp embed snippet to light up the player:
-bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1683545580/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/demonic-wealth">Demonic Wealth by Krallice</a></iframe>'
+bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=277456685/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/crystalline-exhaustion">Crystalline Exhaustion by Krallice</a></iframe>'
 
-ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b1535-fd31-7330-8511-dadc9847e2c6&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Demonic Wealth on Ampwall"></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0b1e-295d-73c2-9bed-9589b8186912&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Crystalline Exhaustion on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---
-
-<!-- Optional release notes (markdown). Leave empty for none. -->
