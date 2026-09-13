@@ -19,7 +19,7 @@ coverArt: "/albums/2020-mass-cathexis.webp"
 # Lyric lines must all be indented deeper than `lyrics:` itself (pasting
 # strips indentation — select the pasted lines and indent them together).
 tracks:
-    - title: ""
+    - title: "Feed on the Blood of Rats"
       initiated: "Barr"
       lyricsBy: "Barr" # credit shown inside the lyrics popup
       lyrics: |

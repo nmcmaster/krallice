@@ -165,7 +165,11 @@ Keep new UI in the chrome register, new content in serif.
 3. Players: Bandcamp, then Ampwall beneath it, each under a small uppercase
    label. Both sit in one centered column capped at 650px (the Ampwall
    player's own max width) so their edges align; both visible and playable
-   at once. Without an `ampwallEmbed`, a right-aligned
+   at once. Ampwall has no compact player, so its iframe is CSS-scaled
+   (`.embed-scaled` in global.css, 0.83) to Bandcamp's 120px height — the
+   snippet is untouched, pointer events map through the transform, and the
+   wrapper clips the iframe's inflated layout box so nothing scrolls
+   sideways. Without an `ampwallEmbed`, a right-aligned
    "Also on Ampwall →" link instead (new tab, so the Bandcamp player isn't
    killed). Gotcha: Ampwall sits behind a Cloudflare bot check, so curl and
    headless Chrome get a challenge page (broken frame) — verify the player
