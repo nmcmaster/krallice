@@ -165,13 +165,21 @@ tracks:
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
+    cover painting by Barr
+    logo by Holland
+    recorded, mixed, and mastered by Marston at the new Menegroth, The Thousand Caves
 
+    the music for this album was commissioned by and first performed at Roadburn 2026. many thanks to Walter & Becky
+
+    Colin lyrics by Colin
+    McMaster and Barr lyrics by McMaster
+    McMaster lyrics contain selections from the works of David Ferry & Aeschylus’ Oresteia
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
-    - "Mickukgkyu,ghgk Barr | bass, vocals"
-    - "Colin Marston | synths, extra drums"
-    - "Nicholas McMaster | guitar, vocals"
+    - "Mick Barr | guitar, vocals"
+    - "Colin Marston | guitar, vocals"
+    - "Nicholas McMaster | bass, vocals"
     - "Lev Weinstein | drums"
 
 # Paste the full Bandcamp embed snippet to light up the player:
