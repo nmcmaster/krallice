@@ -60,15 +60,22 @@ tracks:
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
-# engineering:
+engineering: |
+    recorded, mixed, and mastered by Marston
+    at the new Menegroth, The Thousand Caves,
+    Pocono Mountains, Pennsylvania
+
+    music initiated by McMaster
+    arranged by Krallice
+    lyrics and cover by Barr
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
-    - "Mick Bhjghjharr | bass, vocals"
-    - "Colin Marston | synths, extra drums"
-    - "Nicholas McMaster | guitar, vocals"
-    - "Lev Weinstein | drums"
+    - "McMaster | guitar"
+    - "Barr | bass, vocals"
+    - "Weinstein | drums"
+    - "Marston | 2nd drums, synths"
 
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=81903150/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/no-hope">No Hope by Krallice</a></iframe>'

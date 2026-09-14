@@ -169,7 +169,8 @@ engineering: |
     logo by Holland
     recorded, mixed, and mastered by Marston at the new Menegroth, The Thousand Caves
 
-    the music for this album was commissioned by and first performed at Roadburn 2026. many thanks to Walter & Becky
+    the music for this album was commissioned by and first performed at Roadburn 2026. 
+    many thanks to Walter & Becky
 
     Colin lyrics by Colin
     McMaster and Barr lyrics by McMaster
