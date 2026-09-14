@@ -186,7 +186,8 @@ const dev = import.meta.env.DEV;
               const [name, instruments] = member.split('|').map((s) => s.trim());
               return (
                 <>
-                  {i > 0 && '   '}
+                  {/* two members per line: break before every even index */}
+                  {i > 0 && (i % 2 === 0 ? <br /> : '   ')}
                   <span class="whitespace-nowrap">
                     <span class="text-stone-200">{name}</span>
                     <span class="text-stone-500">: {instruments}</span>
