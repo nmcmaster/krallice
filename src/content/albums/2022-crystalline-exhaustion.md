@@ -145,7 +145,6 @@ tracks:
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
     recorded, mixed, mastered in December 2021 by Colin at Menegroth, The Thousandth Cave
-    license
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.

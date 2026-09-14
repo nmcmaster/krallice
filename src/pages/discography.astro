@@ -10,11 +10,23 @@ const albums = await getSortedAlbums();
     <h1 class="text-center font-display text-5xl font-medium text-stone-100 md:text-6xl">
       Discography
     </h1>
-    <p class="mt-4 text-center text-xs uppercase tracking-[0.4em] text-stone-500">
-      In chronological order
-    </p>
+    {/* order toggle: the subtitle is the control. aria-pressed drives both
+        the label swap and the arrow flip (group-aria-pressed variants) */}
+    <button
+      type="button"
+      data-order-toggle
+      aria-pressed="false"
+      class="group mx-auto mt-4 flex cursor-pointer items-center gap-3 text-xs uppercase tracking-[0.4em] text-stone-500 transition-colors hover:text-stone-200"
+    >
+      {/* both labels occupy one grid cell and crossfade on opacity */}
+      <span class="grid text-center">
+        <span class="col-start-1 row-start-1 transition-opacity duration-500 group-aria-pressed:opacity-0">In chronological order</span>
+        <span class="col-start-1 row-start-1 opacity-0 transition-opacity duration-500 group-aria-pressed:opacity-100">In reverse chronology</span>
+      </span>
+      <span aria-hidden="true" class="inline-block transition-transform duration-500 group-aria-pressed:rotate-180">↓</span>
+    </button>
 
-    <ul class="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 md:gap-7 lg:grid-cols-4">
+    <ul data-album-grid class="mt-12 grid grid-cols-2 gap-5 transition-opacity duration-200 sm:grid-cols-3 md:gap-7 lg:grid-cols-4">
       {albums.map((album) => (
         <li>
           <a href={`/albums/${albumSlug(album)}`} class="group block">
@@ -45,4 +57,42 @@ const albums = await getSortedAlbums();
       ))}
     </ul>
   </main>
+
+  <script>
+    const toggle = document.querySelector<HTMLButtonElement>('[data-order-toggle]');
+    const grid = document.querySelector<HTMLUListElement>('[data-album-grid]');
+    const KEY = 'discography-order';
+    if (toggle && grid) {
+      const reverse = () => {
+        for (const li of Array.from(grid.children).reverse()) grid.appendChild(li);
+      };
+      const apply = (reversed: boolean, animate: boolean) => {
+        toggle.setAttribute('aria-pressed', String(reversed));
+        if (!animate) return void reverse();
+        // fade out, reorder, fade back in — the reorder happens while the
+        // grid is invisible so tiles don't visibly jump
+        grid.style.opacity = '0';
+        grid.addEventListener(
+          'transitionend',
+          () => {
+            reverse();
+            grid.style.opacity = '';
+          },
+          { once: true },
+        );
+      };
+      let reversed = false;
+      try {
+        reversed = localStorage.getItem(KEY) === 'reversed';
+      } catch {}
+      if (reversed) apply(true, false);
+      toggle.addEventListener('click', () => {
+        reversed = !reversed;
+        apply(reversed, true);
+        try {
+          localStorage.setItem(KEY, reversed ? 'reversed' : 'chronological');
+        } catch {}
+      });
+    }
+  </script>
 </BaseLayout>

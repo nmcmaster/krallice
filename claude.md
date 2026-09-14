@@ -98,6 +98,13 @@ The one sanctioned override is optional `backdropArt`, which swaps the ambient
 backdrop only — every other surface always uses `coverArt`. Don't add further
 art fields.
 
+The discography grid's subtitle ("In chronological order ↓") is a toggle:
+clicking it crossfades the grid while reversing the DOM order, flips the
+label and arrow via `aria-pressed` (Tailwind `group-aria-pressed:`
+variants), and remembers the choice in `localStorage`. The album pages'
+numerals and prev/next footers are unaffected — canonical order is always
+oldest-first.
+
 Chapter numbers (the roman numerals under album titles) come from position in
 `getSortedAlbums()` — nothing to set manually.
 

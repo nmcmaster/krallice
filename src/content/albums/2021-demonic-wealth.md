@@ -4,7 +4,7 @@
 # (year stripped), so slugs must be unique across years.
 # Site order + chapter numerals come from releaseDate — nothing to set here.
 
-title: "Mass Cathexis"
+title: "Demonic Wealth"
 releaseDate: 2021-03-05
 # Drop the cover into public/albums/ first. One field drives the header art,
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
