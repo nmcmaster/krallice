@@ -69,9 +69,12 @@ public/
    and multiple spaces are kept, blank lines split paragraphs — holds
    recording info and assorted credits),
    `lineup` (list of `"Name | instruments"` strings — the pipe is the parse
-   separator, display formatting lives in `[slug].astro`; rendered as one
-   flowing credit paragraph under the engineering text, each member kept
-   unwrapped), `bandcampEmbed` (full iframe HTML),
+   separator, display formatting lives in `[slug].astro`; rendered under
+   the engineering text two members per line, each member kept unwrapped.
+   For a release with more than one lineup — two EPs on one record — it's
+   instead a list of `{ heading, members }` groups, each rendered with a
+   small chrome-register header naming its tracks; `[slug].astro`
+   normalizes both forms to groups), `bandcampEmbed` (full iframe HTML),
    `ampwallEmbed` (full iframe HTML — rendered as a second, always-visible
    player directly under the Bandcamp one; both are independent cross-origin
    iframes, so a listener can run them simultaneously, which is intended),

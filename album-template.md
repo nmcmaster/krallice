@@ -48,6 +48,15 @@ engineering: |
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
     - "Mick Barr | guitar, bass, voice"
+# Or, for a record with more than one lineup (two EPs on one release), a list
+# of groups — each gets a small header above its members:
+# lineup:
+#     - heading: "1–4 · First EP"
+#       members:
+#           - "Mick Barr | guitar, vocals"
+#     - heading: "5–8 · Second EP"
+#       members:
+#           - "Mick Barr | guitar, vocals"
 
 # Paste the full Bandcamp embed snippet to light up the player:
 # bandcampEmbed: '<iframe style="border:0;width:100%;height:472px;" src="https://bandcamp.com/EmbeddedPlayer/album=XXXXXXXXX/size=large/..." seamless></iframe>'

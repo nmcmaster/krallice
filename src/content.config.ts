@@ -34,7 +34,16 @@ const albums = defineCollection({
       )
       .default([]),
     engineering: z.string().optional(),
-    lineup: z.array(z.string()).default([]),
+    /** Either a flat list of "Name | instruments" strings, or — for a release
+        with more than one lineup (e.g. two EPs on one record) — a list of
+        `{ heading, members }` groups, where `heading` labels the tracks the
+        group played on. */
+    lineup: z
+      .union([
+        z.array(z.string()),
+        z.array(z.object({ heading: z.string(), members: z.array(z.string()) })),
+      ])
+      .default([]),
     bandcampEmbed: z.string().optional(),
     ampwallEmbed: z.string().optional(),
     ampwallUrl: z.string().url().optional(),
