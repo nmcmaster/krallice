@@ -10,7 +10,7 @@ releaseDate: 2025-10-23
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
 # Export ~1600×1600 WebP or JPEG (q75–80), aiming under ~500 KB — files in
 # public/ ship as-is, no build-time optimization:
-coverArt: "/albums/2023-porous-resonance-abyss.png"
+coverArt: "/albums/2025-no-hope.jpg"
 # backdropArt: "/albums/2012-years-past-matter-background.jpg"
 
 # A track is a plain title string, or a mapping for extra data.
@@ -19,33 +19,61 @@ coverArt: "/albums/2023-porous-resonance-abyss.png"
 # Lyric lines must all be indented deeper than `lyrics:` itself (pasting
 # strips indentation — select the pasted lines and indent them together).
 tracks:
-    - title: "Porous Resonance Abyss part I"
-      initiated: "Marston"
-      lyricsBy: ""
+    - title: "Inner Peace"
+      initiated: "McMaster"
+      lyricsBy: "Barr"
       lyrics: |
+          Violent wind
+          Soundless without
+          And within
+          Deeper into this void
+          Where distance exists not
+          Grappling with forces
+          Of blood and matter
 
-    - title: "Porous Resonance Abyss part I"
-      initiated: "Marston"
+          The shifting sands and slowest water
+          Drop off into endless formlessness
+
+          Recover senses of place
+          And evaporate again
+          Walk freely towards dusk
+          And our embrace
+
+          Root blocking spaces between
+          Under this natural filth
+
+          Those sheer cliffs
+          Gazed off into solitude
+          Before the tides erupted
+
+          Witching our way through the water shadows
+          While the angels flicker on the surface
+          And slowly shriek in terror and ecstacy
+
+          The shriek lasts for days
+          While the light spins past
+          Shadows race into the ocean of night
+
+    - title: "Protean Pulse"
+      initiated: "McMaster"
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
-engineering: |
-    Recorded at Menegroth the Thousand Caves
-    03.13.23 - 03.31.23
+# engineering:
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
-    - "Mick Barr | bass, vocals"
+    - "Mick Bhjghjharr | bass, vocals"
     - "Colin Marston | synths, extra drums"
     - "Nicholas McMaster | guitar, vocals"
     - "Lev Weinstein | drums"
 
 # Paste the full Bandcamp embed snippet to light up the player:
-bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=313727740/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/porous-resonance-abyss">Porous Resonance Abyss by Krallice</a></iframe>'
+bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=81903150/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/no-hope">No Hope by Krallice</a></iframe>'
 
-ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14e6-167d-7240-9256-88c2cf66d62a&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Porous Resonance Abyss on Ampwall"></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0b36-f1cd-7051-9032-6533614c6b00&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to No Hope on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---

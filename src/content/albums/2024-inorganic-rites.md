@@ -10,7 +10,7 @@ releaseDate: 2024-07-05
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
 # Export ~1600×1600 WebP or JPEG (q75–80), aiming under ~500 KB — files in
 # public/ ship as-is, no build-time optimization:
-coverArt: ""
+coverArt: "/albums/2024-inorganic-rites"
 # backdropArt: "/albums/2012-years-past-matter-background.jpg"
 
 # A track is a plain title string, or a mapping for extra data.
