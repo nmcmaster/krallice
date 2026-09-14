@@ -10,7 +10,7 @@ releaseDate: 2024-07-05
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
 # Export ~1600×1600 WebP or JPEG (q75–80), aiming under ~500 KB — files in
 # public/ ship as-is, no build-time optimization:
-coverArt: "/albums/2024-inorganic-rites"
+coverArt: "/albums/2024-inorganic-rites.webp"
 # backdropArt: "/albums/2012-years-past-matter-background.jpg"
 
 # A track is a plain title string, or a mapping for extra data.
@@ -19,26 +19,126 @@ coverArt: "/albums/2024-inorganic-rites"
 # Lyric lines must all be indented deeper than `lyrics:` itself (pasting
 # strips indentation — select the pasted lines and indent them together).
 tracks:
-    - title: "Porous Resonance Abyss part I"
-      initiated: "Marston"
-      lyricsBy: ""
+    - title: "Parataxis"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
       lyrics: |
+          From the faith of the most devout
+          a new aspect of consciousness was born
 
-    - title: "Porous Resonance Abyss part I"
+          Parataxis, flat reality
+          gave way to doubt, emotions left unexpressed 
+          one with their tragic fates
+
+          His god’s voice tells him to kill his son
+          An exiled scholar writes his life’s work
+          An aristocrat’s propaganda opens a door to the other realm
+    - title: "Flatlines Encircled Residue"
       initiated: "Marston"
-      lyricsBy: ""
+      lyricsBy: "Barr"
       lyrics: |
+          Chaptered, quartered, and left to rot
+          liquified tissue runs down the arms
+          carrying this carrion back to the living
+          for their psychological well-being
+          ceremonial closure
 
-    - title: "Porous Resonance Abyss part I"
+          Each chuck of the pick sends shivers
+          one known since the beginning
+          anticipation of the unavoidable
+
+          Botched ground, ice and stone
+          rising sea levels
+          burial above ground in a stone pod
+          cemented shut and left to rot
+          so the civilized can rest in peace
+    - title: "Irdischen"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
+      lyrics: |
+          A silent progress through the indeterminate 
+          Heavy with the implications of extending into 
+          the depths of time, space, and consciousness
+    - title: "Here Forever"
+      initiated: "Barr"
+      lyricsBy: "Barr"
+      lyrics: |
+          Bewildered I am
+          seen ghost walking through the crowded woods
+          chattering at nothing with the other ghosts
+          Sun and dust in lung and eye
+          fearful still be here
+          Here amongst forever
+          Feeling time begin again and again
+          growing still
+          Eternally dying and birthing the same
+          burning the memories of earth
+    - title: "Feel Time Begin"
+      initiated: "Barr / McMaster"
+
+    - title: "Faustian Bargain"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
+      lyrics: |
+          Asked for a sign and found only chaos
+          Prophet of last things, bearer of a truth still veiled to him
+
+          Beloved, come forth as a revelation of the perfect order 
+          Earthly particularity held fast in the mirror of a timeless eye
+    - title: "Universe Ancestral Talisman"
       initiated: "Marston"
-      lyricsBy: ""
-      lyrics: |
 
-    - title: "Porous Resonance Abyss part I"
+    - title: "Death By Misadventure"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
+      lyrics: |
+          You retreated into your shell long before I was born
+          to an impenetrable interior
+          And surely there were moments of peace, domestic love, 
+          and the fulfillment of communal artistry
+
+          But the darkness must be reckoned with
+          The people you kept close
+          The people you pushed away
+    - title: "Fatestorm Sanctuary"
       initiated: "Marston"
-      lyricsBy: ""
+      lyricsBy: "Marston"
       lyrics: |
+          oldest web
+          frozen thought insists false autonomy
 
+          longest thread
+          enabled through instincts unfurl
+
+          ancient shadowed pointless portrayal
+
+          smolder long shut
+          action defined
+
+          endless silence secretion
+
+          life succumb to inorganic rites
+    - title: "Hinderer"
+      initiated: "Barr"
+      lyricsBy: "Barr"
+      lyrics: |
+          and when they asked me “are you ready?”
+          I truly was
+          and when they changed the shape upon me
+          I could follow it forever without pause
+
+          This thing has existed
+          without name before
+          uncountable sources outward
+          lessen its purpose
+
+          and you can sense its presence
+          without it making a sound
+
+          I can only summon its offenses
+          when I am not myself   
+          I can only seethe from it
+          the last drops of what went wrong
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
