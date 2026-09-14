@@ -19,13 +19,147 @@ coverArt: "/albums/2026-scour-order.webp"
 # Lyric lines must all be indented deeper than `lyrics:` itself (pasting
 # strips indentation — select the pasted lines and indent them together).
 tracks:
-    - title: "Porous Resonance Abyss part I"
+    - title: "Agonal Shining"
       initiated: "Marston"
-      lyricsBy: ""
+      lyricsBy: "Barr / McMaster"
       lyrics: |
+          Song of sorrow, like some great wave, to burst at last upon the shining of this agony.
+          twin throned, twin sceptered, in twofold power of kings from god
+          once again the pain of grim, true prophecy shivers my whirling brain in a storm of things foreseen.
+          sweet hope shining from the flames beats back the pitiless pondering of sorrow that eats my heart
 
-    - title: "Porous Resonance Abyss part I"
+    - title: "Grievous Corrector"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
+      lyrics: |
+          Under the fig tree my warrior lies
+          who died for me, under the sound of the wind.
+
+          Heroes all die, in one way or another.
+          Some astonished in the bloodsoaked field,
+          wearing the armor of the king.
+          Others, in torment and bewilderment,
+          By their own hand, compelled by heaven.
+
+          Things all go wrong when He takes hold of one of us.
+
+    - title: "Kill the Guardian"
+      initiated: "McMaster"
+      lyricsBy: "Barr / Marston / McMaster"
+      lyrics: |
+          All those fires like resurrections
+          Surrendered to the other sphere
+          A vigilant and sensitive particle
+          Its discreet, silently passing spirit
+          Fantasy drives truth into darkness
+          Wishes do not displace mountains
+
+          Siphon useless antiphona
+          Concealed remnant, obfuse cost
+
+          Derail essential seepage
+          Eroded self, soulless blaspheme
+
+          Embody questionable
+          Radiate somewhat
+
+          All!
+          Enter that void shaken, unprepared
+          Time’s prison fact
+
+          Grant that some future king destroy the portal
+          Or that a god obliterate the name of my companion
+          On our journey to violate the forest and kill the guardian
+    - title: "Unceasing Path"
+      initiated: "McMaster"
+      lyricsBy: "McMaster"
+      lyrics: |
+          All those fires like resurrections
+          The asymptotic nature of dreams 
+          My feet caught in a pit
+          The cabin on the shore 
+          My hands grasping air
+          Surrendered to some great sphere
+          One step after another, churning
+          Like some great wave
+          Unceasing path, churning
+          Falling to a knee
+          The house draws no nearer
+          The picture static, unchanging
+          Unceasing path
+
+    - title: "Living Useless Ritual"
+      initiated: "McMaster"
+      lyricsBy: "Barr / Marston / McMaster"
+      lyrics: |
+          Ancient cup of tears / pastoral legend
+          Hid in the dark wood in which we find ourselves
+          The pool into which we cannot look now
+          Nor drink from the dark freshness of that source
+
+          Silence for scripture
+          Pressurized holy one
+          Enough!
+
+          Living useless ritual
+
+          From which the pure words sprang
+          Spoken to utter a sorrow as impersonal as legend
+
+    - title: "Indecipherable Divinity"
+      initiated: "Barr"
+      lyricsBy: "Barr / McMaster"
+      lyrics: |
+          The light of reason / the handmaid of faith / the light of grace / the bride of faith
+          The taste of the sun in our mouths
+          Cold and silent passion
+          even on the edge of the tomb
+          slowly sinking beneath the waves
+
+          Sceptered death drained his ranks manless
+          Ascent is not so easy
+          like some hound upon the trail of blood that leads to discovered death.
+
+    - title: "Her Green Arms"
+      initiated: "McMaster"
+      lyricsBy: "Barr / McMaster"
+      lyrics: |
+          Who had weathered so many storms and become as gentle as water
+          The room at once became bright, as if his soul had been fully illuminated…
+
+          Murmur their old music
+          My coil is cunning
+          Envy, malice, pity, contemplation
+
+          Lace me around with her green arms, come tide
+          Come evening, and i will be gone
+
+          I am that sea. What i cast up is mine.
+          Far inland bears my legend
+
+    - title: "Scour Order"
       initiated: "Marston"
+      lyricsBy: "Marston"
+      lyrics: |
+          Arc eraser 
+          Presence rested interstitial
+          Scour order
+          Reinstated horror ladder
+
+          Terse evolution
+          Biome symbiotic enslavement
+          Cursed revelation
+          Crippled psychic broadcast
+
+          Cursed eraser
+          Obtuse gesture river
+          Reminder antiquated
+          A porous resonance excitation
+
+          Worried remainders astray
+          Grasp cyclic as a reflex
+          Treacherous depth
+          Mind erase through the vacuum
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
@@ -43,7 +177,7 @@ lineup:
     - "Lev Weinstein | drums"
 
 # Paste the full Bandcamp embed snippet to light up the player:
-bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=313727740/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/porous-resonance-abyss">Porous Resonance Abyss by Krallice</a></iframe>'
+bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=361258239/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/scour-order">Scour Order by Krallice</a></iframe>'
 
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14e6-167d-7240-9256-88c2cf66d62a&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Porous Resonance Abyss on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
