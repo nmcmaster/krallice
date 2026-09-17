@@ -157,24 +157,24 @@ tracks:
       initiated: "Marston / Weinstein"
       lyricsBy: "Barr"
       lyrics: |
-          Tributary of infest
-          Seeds of transplanted doubt
-          Root rot endless
-          In visions countless
+          Treeform coagulate
+          clouds and foam cover the stones
+          and sharpen the likeness of water
+          til ice mimic animal   
 
-          Chained to chimneys
-          Of the infinite inferno
-          Blanched white bone radiance
-          The only moving thing
+          To purport on jealousy
+          in the heart of insanity
+          or the thickness of juniper ash  
 
-          Scenes of the serene
-          summon themselves
-          Endorphinol blotting
-          Delused into peace and nightmare
+          Lands shall blend with lifestorms
+          of resistant strains
 
-          Larynx of the former
-          one who forms
-          Blend in amongst the formed
+          Memory clouds benefit
+          those suffering in patterns
+
+          To whimper in the eyes of respect and scrutiny
+          a scoff and a glance
+          shattering the gospel before
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted

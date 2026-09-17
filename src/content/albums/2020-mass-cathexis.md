@@ -102,7 +102,7 @@ tracks:
           Sublimated aggression
           Societal misanthropy
 
-          We’ve sewn the seeds
+          We’ve sown the seeds
           To feed the need
           To cede to greed
           Commit savage deeds
@@ -171,7 +171,7 @@ lineup:
     - "Nicholas McMaster | bass, vocals"
     - "Mick Barr | guitar, vocals"
     - "Lev Weinstein | Drums"
-    - "Colin Marston | guitar, keyboards, bass, productions"
+    - "Colin Marston | guitar, keyboards, bass"
     - "Dave Edwardson | vocals"
 
 # Paste the full Bandcamp embed snippet to light up the player:

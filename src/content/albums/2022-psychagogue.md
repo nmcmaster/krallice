@@ -98,9 +98,6 @@ tracks:
           Recourse to myth in the face of reason’s paradox
           A promise of immortality in the supreme detachment of poetry
 
-
-
-          (Mcmaster)
           (after Rachel Bespaloff)
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces

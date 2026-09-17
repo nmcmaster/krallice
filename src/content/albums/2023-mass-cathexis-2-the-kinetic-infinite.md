@@ -24,12 +24,31 @@ tracks:
       initiated: "McMaster"
       lyricsBy: "McMaster"
       lyrics: |
+          Sublime heights of the empyrean
+          monsters which server both as guardians and heraldic symbols
+          Purifying fire
+          in the white rose of the empyrean
 
+          (after Erich Auerbach)
     - title: "Absorption"
       initiated: "Barr"
       lyricsBy: "Barr"
       lyrics: |
+          crowded seafoam
+          carries a wisp of movement
+          guided and thoughtful
 
+          a pew of sound gatherers
+          combing the land
+          drowning in quantity
+
+          existing as absorption
+          cellular distribution
+          of the massless cathartic production
+
+          and the wisps pile onward
+          choking oceans of thought
+          marching through the infinite empty
     - title: "Theriantrophy"
       initiated: "McMaster"
       lyricsBy: "McMaster"
@@ -198,6 +217,6 @@ ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?a
 byline: "NM"
 ---
 
-Mass Cathexis 2 was the result of a session to finally record the four songs intended for Mass Cathexis (2020). Dave Edwardson appears on "Liquid Remembered Vessels." The Kinetic Infinite is the only recording (so far) with the lineup of Colin on synth bass (in addition to other synth parts), Mick and Nick on guitar, and Lev on drums. No bass guitar at all on The Kinetic Infinite.
+Mass Cathexis 2 was the result of a session to finally record the four songs intended for Mass Cathexis (2020). As such, it is the original instrumentation, not the synth-driven lineup of the previous three records. Dave Edwardson appears on "Liquid Remembered Vessels." The Kinetic Infinite is the only recording (so far) with the lineup of Colin on synth bass (in addition to other synth parts), Mick and Nick on guitar, and Lev on drums. No bass guitar at all on The Kinetic Infinite.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

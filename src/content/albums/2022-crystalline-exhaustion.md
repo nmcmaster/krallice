@@ -149,10 +149,10 @@ engineering: |
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
-    - "Lev Weinstein | Drums"
-    - "Colin Marston | Guitars, Keyboards, Bass"
-    - "Mick Barr | Vocals"
-    - "Nicholas McMaster | Bass"
+    - "Mick Barr | bass, vocals"
+    - "Colin Marston | keyboards, additional drums, vocals"
+    - "Nicholas McMaster | guitar, vocals"
+    - "Lev Weinstein | drums"
     # Mick Barr - bass, vocals
     # Colin Marston - keyboards, additional drums, vocals
     # Nicholas McMaster - guitar, vocals
@@ -167,4 +167,4 @@ ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?a
 byline: "NM"
 ---
 
-The first record of the switch-instruments era of the band, and the decision to drop from two guitars to one, and make keyboards/synthesizers a full-time instrument (though there are studio keyboard overdubs present as far back as the first album).
+The first record of the switch-instruments era of the band, and the decision to drop from two guitars to one, and make keyboards/synthesizers a full-time instrument (though there are studio keyboard overdubs present as far back as the first album). Colin also plays a reduced drumkit alongside Lev at certain moments.
