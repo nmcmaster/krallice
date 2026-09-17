@@ -42,6 +42,10 @@ const albums = defineCollection({
       )
       .default([]),
     engineering: z.string().optional(),
+    /** keyboards/synths used on the record, free text like `engineering`
+        (whitespace kept, blank line = new paragraph); third block of the
+        credits panel, under the lineup */
+    synth: z.string().optional(),
     /** signature under the release notes, e.g. "NM"; em dash added on render */
     byline: z.string().optional(),
     /** Either a flat list of "Name | instruments" strings, or — for a release

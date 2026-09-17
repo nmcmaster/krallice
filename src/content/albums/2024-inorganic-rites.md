@@ -155,6 +155,10 @@ lineup:
     - "Mick Barr | bass, guitar, vocals"
     - "Lev Weinstein | drums"
 
+# Keyboards/synths used, free text like engineering (line breaks kept):
+synth: |
+    ARP Omni mk1,  ARP Odyssey,  ARP 2600m,  Korg Lambda,  Roland Paraphonic 505
+
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2172080205/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/inorganic-rites">Inorganic Rites by Krallice</a></iframe>'
 

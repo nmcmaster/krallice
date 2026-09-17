@@ -55,6 +55,11 @@ tracks:
 engineering: |
     recorded, mixed, mastered at Studio by Person in month year.  Artwork by Person.  Logo by Person.
 
+# Optional: keyboards/synths used on the record — free text like
+# engineering, shown as a third block in the credits panel under the lineup:
+# synth: |
+#     ARP Omni mk1, ARP Odyssey, Korg Lambda
+
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:

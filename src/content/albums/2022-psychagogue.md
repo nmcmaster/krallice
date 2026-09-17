@@ -113,10 +113,10 @@ lineup:
     - "Barr | bass, vocals"
     - "Marston | keys and drums, vocals"
     - "Weinstein | drums"
-    # Mick Barr - bass, vocals
-    # Colin Marston - keyboards, additional drums, vocals
-    # Nicholas McMaster - guitar, vocals
-    # Lev Weinstein - drums
+
+# Keyboards/synths used, free text like engineering (line breaks kept):
+synth: |
+    Casio CTK-650,  ARP Odyssey,  GForce Mellotron
 
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3887269681/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/psychagogue-3">Psychagogue by Krallice</a></iframe>'

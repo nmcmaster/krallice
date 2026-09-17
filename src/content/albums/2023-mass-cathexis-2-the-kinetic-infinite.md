@@ -208,6 +208,11 @@ lineup:
           - "Weinstein | drums"
           - "Marston | synth bass, synth regular"
           - "McMaster | clean guitar"
+
+# Keyboards/synths used, free text like engineering (line breaks kept):
+synth: |
+    for Kinetic Infinite: ARP 2600m (all bass)
+    ARP Omni mk1,  ARP Odyssey,  Korg Lambda
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2415332396/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/mass-cathexis-2-the-kinetic-infinite">Mass Cathexis 2 - The Kinetic Infinite by Krallice</a></iframe>'
 

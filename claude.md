@@ -72,7 +72,10 @@ public/
    numerals; never displayed), `coverArt`, `tracks[]`,
    `engineering` (free-text string rendered whitespace-as-typed: line breaks
    and multiple spaces are kept, blank lines split paragraphs — holds
-   recording info and assorted credits),
+   recording info and assorted credits), `synth` (optional free text in the
+   same form — keyboards/synths used, for the synthesizer-era records;
+   rendered as a third block of the credits panel under the lineup, with a
+   small "Keyboards / Synthesizers" label),
    `lineup` (list of `"Name | instruments"` strings — the pipe is the parse
    separator, display formatting lives in `[slug].astro`; rendered under
    the engineering text two members per line, each member kept unwrapped.
@@ -205,8 +208,10 @@ Keep new UI in the chrome register, new content in serif.
    killed). Gotcha: Ampwall sits behind a Cloudflare bot check, so curl and
    headless Chrome get a challenge page (broken frame) — verify the player
    in a real browser only.
-4. Recording/engineering panel: free-text credits, then the lineup paragraph —
-   kept compact and centered, deliberately heading-less.
+4. Recording/engineering panel: free-text credits, then the lineup paragraph,
+   then (synth-era records) the synthesizer list — kept compact and
+   centered; the panel itself is heading-less, only the synth block
+   carries a small label since bare model names need one.
 5. Release notes (`.notes`, drop cap) then the byline — only when the
    markdown body has content.
 6. Prev / next release footer ("Previous release" / "Next release"; the last

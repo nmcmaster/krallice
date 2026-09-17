@@ -61,9 +61,7 @@ tracks:
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
-    recorded, mixed, and mastered by Marston
-    at the new Menegroth, The Thousand Caves,
-    Pocono Mountains, Pennsylvania
+    recorded, mixed, and mastered by Marston at the new Menegroth, The Thousand Caves, Pocono Mountains, Pennsylvania
 
     music initiated by McMaster
     arranged by Krallice
@@ -76,6 +74,11 @@ lineup:
     - "Barr | bass, vocals"
     - "Weinstein | drums"
     - "Marston | 2nd drums, synths"
+
+# Keyboards/synths used, free text like engineering (line breaks kept):
+synth: |
+    mostly UDO Super Gemini.  Additional overdubs on "Protean Pulse" use
+    ARP Omni mk1,  ARP Odyssey,  ARP 2600m,  Korg Lambda,  Roland Paraphonic 505
 
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=81903150/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/no-hope">No Hope by Krallice</a></iframe>'

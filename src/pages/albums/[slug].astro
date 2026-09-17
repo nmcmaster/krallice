@@ -197,13 +197,13 @@ const lineup =
       </section>
     )}
 
-    {(album.data.engineering || album.data.lineup.length > 0) && (
+    {(album.data.engineering || album.data.lineup.length > 0 || album.data.synth) && (
       <section class="mt-6 border border-stone-800/70 bg-black/30 py-4 px-2 sm:px-3 sm:mt-12">
         {/* <h2 class="mb-3 text-[0.7rem] uppercase tracking-[0.3em] text-stone-500">
           Recording &amp; Engineering
         </h2> */}
         {album.data.engineering && (
-          <div class="space-y-3 font-serif text-base text-center leading-relaxed text-stone-400">
+          <div class="space-y-3 font-serif text-base text-center leading-relaxed text-stone-300">
             {album.data.engineering.split(/\n\n+/).map((p) => (
               <p class="whitespace-pre-wrap">{p}</p>
             ))}
@@ -235,6 +235,18 @@ const lineup =
                 </p>
               </div>
             ))}
+          </div>
+        )}
+        {album.data.synth && (
+          <div class="mt-4 border-t border-stone-800/70 pt-4">
+            <p class="mb-1.5 text-center text-[0.6rem] uppercase tracking-[0.3em] text-stone-500">
+              Keyboards / Synthesizers
+            </p>
+            <div class="space-y-3 text-center font-serif text-base leading-relaxed text-stone-300">
+              {album.data.synth.split(/\n\n+/).map((p) => (
+                <p class="whitespace-pre-wrap">{p}</p>
+              ))}
+            </div>
           </div>
         )}
       </section>
