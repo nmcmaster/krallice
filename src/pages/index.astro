@@ -9,11 +9,13 @@ const beginHref = first ? `/albums/${albumSlug(first)}` : '/discography';
 
 <BaseLayout>
   <main class="mx-auto flex min-h-[80vh] max-w-3xl flex-col items-center justify-center px-6 text-center">
-    <img
+    <a href={beginHref}>
+      <img
       src="/logo_white.png"
       alt="Krallice"
       class="w-full max-w-xs md:max-w-md drop-shadow-[0_0_30px_rgba(0,0,0,0.8)]"
-    />
+      />
+    </a>
 
     <a
       href={beginHref}
@@ -23,7 +25,7 @@ const beginHref = first ? `/albums/${albumSlug(first)}` : '/discography';
     </a>
 
     <p class="mt-8 text-[0.7rem] uppercase tracking-[0.5em] text-stone-500">
-      The records, in order
+     <a href={beginHref}>  The records, in order</a>
     </p>
   </main>
 </BaseLayout>

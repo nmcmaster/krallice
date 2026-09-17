@@ -66,7 +66,6 @@ tracks:
           As veins and roots become one
           As worlds spill from inchoate thoughts
           As you fade
-          back from man
     - title: "Aridity"
       initiated: "Marston"
       lyricsBy: "Barr"
