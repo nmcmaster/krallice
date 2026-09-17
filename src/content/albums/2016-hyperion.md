@@ -100,6 +100,10 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b156a-bf72-7f03-815b-43331176f588&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Hyperion on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
 
 <!-- Optional release notes (markdown). Leave empty for none. -->
+
+Three songs recorded in 2013 intended as a split release with another band. After some years when the split failed to materialize, the decision was made to release as a stand-alone ep.
+

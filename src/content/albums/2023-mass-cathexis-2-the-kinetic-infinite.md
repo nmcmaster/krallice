@@ -195,6 +195,9 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14fb-c1c5-75b0-8c74-b2daa92cddb4&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Mass Cathexis 2 - The Kinetic Infinite on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+Mass Cathexis 2 was the result of a session to finally record the four songs intended for Mass Cathexis (2020). Dave Edwardson appears on "Liquid Remembered Vessels." The Kinetic Infinite is the only recording (so far) with the lineup of Colin on synth bass (in addition to other synth parts), Mick and Nick on guitar, and Lev on drums. No bass guitar at all on The Kinetic Infinite.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

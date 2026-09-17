@@ -155,8 +155,8 @@ tracks:
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
-# engineering: |
-#     recorded, mixed, mastered at Studio by Person in month year.  Artwork by Person.  Logo by Person.
+engineering: |
+    recorded by Colin Marston at Menegroth, the Thousand Caves
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.

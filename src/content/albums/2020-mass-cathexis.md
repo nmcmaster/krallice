@@ -52,7 +52,7 @@ tracks:
           systematic implantation
           world control
     - title: "The Wheel"
-      written: "McMaster"
+      initiated: "McMaster"
       lyricsBy: "McMaster"
       lyrics: |
           I care not from whence you came
@@ -65,7 +65,7 @@ tracks:
           I complete the circle.
 
     - title: "Aspherance"
-      written: "Barr"
+      initiated: "Barr"
       lyricsBy: "Marston"
       lyrics: |
           Leaden drop    into aspherance
@@ -181,6 +181,9 @@ Ampwall: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumI
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b1560-9bc3-7653-8d5e-638bbdf64420&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Mass Cathexis on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+This album was recorded in two halves, which each session handling 4/5 songs. There was a third session planned with an additional four songs. This session was cancelled because of the 2020 pandemic & lockdown. These songs were eventually recorded and released as "Mass Cathexis 2." Dave Edwardson only appears on the song "Mass Cathexis."
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

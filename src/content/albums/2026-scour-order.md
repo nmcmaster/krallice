@@ -43,6 +43,9 @@ tracks:
 
           Things all go wrong when He takes hold of one of us.
 
+          ---
+           “Grievous Corrector” is an interpolation of “Mnemosyne part 3” by Friedrich Hölderlin, translated by David Ferry
+
     - title: "Kill the Guardian"
       initiated: "McMaster"
       lyricsBy: "Barr / Marston / McMaster"
@@ -175,6 +178,7 @@ engineering: |
     Colin lyrics by Colin
     McMaster and Barr lyrics by McMaster
     McMaster lyrics contain selections from the works of David Ferry & Aeschylus’ Oresteia
+
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
@@ -189,6 +193,9 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 # ampwallEmbed: ''
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+The first record made since the return to the original instrumentation. A new songwriting process was used for "Grievous Corrector," "Unceasing Path," and "Living Useless Ritual" in that original guitar parts were composed by Nick then learned and adapted by Mick. For "Grievous" and "Living," Mick then wrote the bass that Nick plays. Colin wrote his guitar parts for these in accordance with the usual "initiation" practice, but also wrote the main riffs for the middle section in "Living" which he does vocals over.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

@@ -146,7 +146,25 @@ const lineup =
         each gets a small chrome-register label */}
     {(album.data.bandcampEmbed || dev) && (
       <section class="mx-auto mt-12 max-w-[650px]">
-        <p class="mb-1.5 text-[0.6rem] uppercase tracking-[0.3em] text-stone-600">Bandcamp</p>
+        <div class="mb-1.5 flex items-baseline justify-between gap-4">
+          <p class="text-[0.6rem] uppercase tracking-[0.3em] text-stone-600">Bandcamp</p>
+          {album.data.bandcampEmbed && album.data.ampwallEmbed && (
+            <>
+              {/* both players can run at once — a feature. This toggle opts
+                  out: clicking into one player resets the other (see script) */}
+              <button
+                type="button"
+                data-solo-toggle
+                aria-pressed="false"
+                title="Starting one player will stop the other"
+                class="group flex cursor-pointer items-center gap-2 text-[0.6rem] uppercase tracking-[0.25em] text-stone-600 transition-colors hover:text-stone-300 aria-pressed:text-stone-400"
+              >
+                <span aria-hidden="true" class="inline-block size-2 border border-current group-aria-pressed:bg-current"></span>
+                Disable simultaneous play
+              </button>
+            </>
+          )}
+        </div>
         {album.data.bandcampEmbed ? (
           <div class="embed" data-player set:html={album.data.bandcampEmbed} />
         ) : (
@@ -158,22 +176,6 @@ const lineup =
           <>
             <p class="mt-8 mb-1.5 text-[0.6rem] uppercase tracking-[0.3em] text-stone-600">Ampwall</p>
             <div class="embed embed-scaled" data-player set:html={album.data.ampwallEmbed} />
-            {album.data.bandcampEmbed && (
-              <>
-                {/* both players can run at once — a feature. This toggle opts
-                    out: clicking into one player resets the other (see script) */}
-                <button
-                  type="button"
-                  data-solo-toggle
-                  aria-pressed="false"
-                  title="Starting one player will stop the other"
-                  class="group mt-3 ml-auto flex cursor-pointer items-center gap-2 text-[0.6rem] uppercase tracking-[0.25em] text-stone-600 transition-colors hover:text-stone-300 aria-pressed:text-stone-400"
-                >
-                  <span aria-hidden="true" class="inline-block size-2 border border-current group-aria-pressed:bg-current"></span>
-                  Disable simultaneous play
-                </button>
-              </>
-            )}
           </>
         ) : album.data.ampwallUrl ? (
           <p class="mt-2 text-right">
@@ -191,7 +193,7 @@ const lineup =
     )}
 
     {(album.data.engineering || album.data.lineup.length > 0) && (
-      <section class="mt-6 border border-stone-800/70 bg-black/30 py-4 px-2 sm:mt-12">
+      <section class="mt-6 border border-stone-800/70 bg-black/30 py-4 px-2 sm:px-3 sm:mt-12">
         {/* <h2 class="mb-3 text-[0.7rem] uppercase tracking-[0.3em] text-stone-500">
           Recording &amp; Engineering
         </h2> */}
@@ -233,10 +235,19 @@ const lineup =
       </section>
     )}
 
+    {/* notes sit in the same centered 650px column as the players, so the
+        prose measure is a touch narrower than the page and lines up with them */}
     {hasNotes && (
-      <section class="notes mt-12">
-        <Content />
-      </section>
+      <div class="mx-auto max-w-[650px]">
+        <section class="notes dropcap mt-12">
+          <Content />
+        </section>
+        {album.data.byline && (
+          <p class="sm:mt-4 mt-2 text-right font-serif text-sm italic text-stone-400">
+            — {album.data.byline}
+          </p>
+        )}
+      </div>
     )}
 
     {/* after notes prose the nav needs a rule to close the section; without
@@ -245,7 +256,7 @@ const lineup =
     <nav
       class:list={[
         'grid grid-cols-1 gap-4 sm:grid-cols-2',
-        hasNotes ? 'mt-20 border-t border-stone-800/70 pt-10' : 'mt-10',
+        hasNotes ? 'sm:mt-20 mt-12 border-t border-stone-800/70 pt-10' : 'mt-10',
       ]}
     >
       {prev ? (

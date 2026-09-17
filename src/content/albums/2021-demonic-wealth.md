@@ -204,6 +204,9 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b1535-fd31-7330-8511-dadc9847e2c6&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Demonic Wealth on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
 
 <!-- Optional release notes (markdown). Leave empty for none. -->
+
+Concieved in the depths of the 2020 pandemic lockdown, this album was created without any in-person rehearsal or recording. Lev recorded drums on an iPhone at Danbro rehearsal studio in Bushwick on his iPhone, drums to phantom, imaginary songs. Colin edited these drum recordings into song structures and recorded either keyboards, guitar, or both over the edited drum recording. Nick recorded bass guitar on a home setup for the songs "Dilution," "Stil," "Sapphire," "Disgust Patterns," and "Demonic Wealth." Mick recorded all vocals on a laptop inside a parked car. It is worth noting that "Dilution," "Stil," "Sapphire," and "Demonic Wealth" have no guitar at all.

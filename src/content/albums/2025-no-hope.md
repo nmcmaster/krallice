@@ -85,4 +85,6 @@ ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?a
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---
 
+The first Krallice recording done at Colin's new studio in the Pocono Mountains, Pennsyvania.
+
 <!-- Optional release notes (markdown). Leave empty for none. -->

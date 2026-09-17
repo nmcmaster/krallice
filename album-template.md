@@ -41,6 +41,10 @@ tracks:
       tab: "/tabs/second-song.pdf"
     - "Third Song (no credits or lyrics — plain string is fine)"
 
+# Optional signature under the release notes, right-aligned, italic; the em
+# dash is added on render ("— NM"). Only shown when the body has notes:
+# byline: "NM"
+
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.

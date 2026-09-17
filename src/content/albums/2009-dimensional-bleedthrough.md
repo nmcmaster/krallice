@@ -89,7 +89,7 @@ tracks:
           The meaning of everything meant gets obscured
           By willingness to focus on survival.
     - title: "The Mountain"
-      written: "Marston"
+      written: "McMaster"
       lyricsBy: "Michelangelo Buonarroti"
       lyrics: |
           The soul tries out a thousand cures, in vain;

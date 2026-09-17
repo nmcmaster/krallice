@@ -52,6 +52,7 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14e6-167d-7240-9256-88c2cf66d62a&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Porous Resonance Abyss on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

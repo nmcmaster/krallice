@@ -49,11 +49,11 @@ const albums = await getSortedAlbums();
                 {album.data.title}
               </p>
               {album.data.subtitle && (
-                <p class="mt-0.5 text-[0.6rem] uppercase tracking-[0.25em] text-stone-400">
+                <p class="text-[0.6rem] uppercase tracking-[0.25em] text-stone-400">
                   {album.data.subtitle}
                 </p>
               )}
-              <p class="font-mono text-xs tabular-nums text-stone-500">
+              <p class="mt-0.5 font-mono text-xs tabular-nums text-stone-500">
                 {album.data.releaseDate.getUTCFullYear()}
               </p>
             </div>

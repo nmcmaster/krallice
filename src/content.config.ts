@@ -38,6 +38,8 @@ const albums = defineCollection({
       )
       .default([]),
     engineering: z.string().optional(),
+    /** signature under the release notes, e.g. "NM"; em dash added on render */
+    byline: z.string().optional(),
     /** Either a flat list of "Name | instruments" strings, or — for a release
         with more than one lineup (e.g. two EPs on one record) — a list of
         `{ heading, members }` groups, where `heading` labels the tracks the

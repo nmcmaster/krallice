@@ -164,4 +164,7 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0b1e-295d-73c2-9bed-9589b8186912&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Crystalline Exhaustion on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+The first record of the switch-instruments era of the band, and the decision to drop from two guitars to one, and make keyboards/synthesizers a full-time instrument (though there are studio keyboard overdubs present as far back as the first album).

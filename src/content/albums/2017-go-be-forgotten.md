@@ -151,11 +151,13 @@ tracks:
           Bitter agitation at the audacity
           Christian imposition, disbelieving such
           Sold again through this bottomless funnel
+    - title: "Outro"
+      initiated: "Barr"
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
-# engineering: |
-
+engineering: |
+    recorded by Colin Marston at Menegroth, the Thousand Caves
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
@@ -171,6 +173,9 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0a85-0c8c-7950-83f8-9d020afb12f2&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Go Be Forgotten on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+The result of two separate recording sessions which used a somewhat different amp setup. "Go Be Forgotten" (the song) actually switches from one session to the other in the middle.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->

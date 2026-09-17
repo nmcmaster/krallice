@@ -96,8 +96,12 @@ public/
    the tab UX is undecided and no tabs exist yet; the field is a hook so
    the tracklist has somewhere to point once files land.
 3. Optionally write release notes in the markdown body (pressings, reissues,
-   context). Plain markdown, rendered in `.notes` (global.css). An empty
-   body — HTML comments don't count — skips the section entirely.
+   context). Plain markdown, rendered in `.notes` (global.css) with a
+   blackletter drop cap on the opening paragraph (the `dropcap` modifier —
+   album notes only, not About). `byline` (string, e.g. "NM") renders
+   right-aligned in italic serif after the notes, em dash prefixed at
+   render time; shown only when the body has notes. An empty body — HTML
+   comments don't count — skips the section, byline included.
    `2008-krallice.md` has annotated comments showing every frontmatter form.
 
 **`coverArt` is a single source of truth**: it drives the album-page header art,
@@ -165,8 +169,9 @@ CloisterBlack.ttf via `@font-face`):
 - `font-serif` — **EB Garamond** (400/400-italic/600): all reading material —
   `.notes` prose (sized in global.css), tracklist song titles, engineering
   notes.
-- `font-blackletter` — **Cloister Black**: "Begin" on the homepage only.
-  The site's signature; use sparingly, don't spread it.
+- `font-blackletter` — **Cloister Black**: "Begin" on the homepage and the
+  drop cap opening each album's notes. The site's signature; use sparingly,
+  don't spread it.
 
 The deliberate contrast: bookish serif for titles and reading material vs.
 utilitarian chrome (uppercase tracked sans labels, tabular mono numbers/dates).
@@ -186,7 +191,7 @@ Keep new UI in the chrome register, new content in serif.
    wrapper clips the iframe's inflated layout box so nothing scrolls
    sideways. Simultaneous playback of both players is a feature; when both
    embeds exist, a small "Disable simultaneous play" toggle (right-aligned
-   under Ampwall, remembered in `localStorage`) opts out. Mechanism: the
+   on the Bandcamp label row, remembered in `localStorage`) opts out. Mechanism: the
    players are cross-origin iframes with no pause API, but a click inside
    one moves `document.activeElement` to that iframe, so while the toggle is
    on a 200ms poll watches for that and reloads the *other* iframe
@@ -199,7 +204,8 @@ Keep new UI in the chrome register, new content in serif.
    in a real browser only.
 4. Recording/engineering panel: free-text credits, then the lineup paragraph —
    kept compact and centered, deliberately heading-less.
-5. Release notes (`.notes`) — only when the markdown body has content.
+5. Release notes (`.notes`, drop cap) then the byline — only when the
+   markdown body has content.
 6. Prev / next release footer ("Previous release" / "Next release"; the last
    page links back to the discography).
 7. Lyrics `<dialog>`s (one per track with lyrics; opened from the tracklist).
@@ -217,6 +223,15 @@ art floats centered with gaps. If a real record makes this ugly, options are
 3. Tailwind `hidden` is `display:none` — measure layout only after making the
    element visible.
 4. The paint-order/backdrop gotcha above.
+5. Content-layer cache staleness (`.astro/data-store.json`): an entry is
+   re-parsed only when its file's content digest changes. If a file is
+   edited to use a frontmatter field *before* the running dev server has
+   picked up the schema change that adds it, Zod strips the field, the
+   stripped result is cached, and a restart does NOT help (same digest).
+   Symptom: the field renders as unset in dev while `astro build` is
+   correct. Fix: make any content change to that file (even a trailing
+   newline) so it re-parses, or delete `.astro/data-store.json` with the
+   dev server stopped.
 
 ## User preferences
 
