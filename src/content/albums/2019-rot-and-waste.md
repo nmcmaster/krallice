@@ -21,13 +21,13 @@ coverArt: "/albums/2019-rot-and-waste.jpg"
 # strips indentation — select the pasted lines and indent them together).
 tracks:
     - title: "Litany of Regrets"
-    # recorded: 5/2/2011
-    - title: "Monolith of Possession "
-    # recorded: 5/26/2009
+      note: "recorded: 5/2/2011"
+    - title: "Monolith of Possession"
+      note: "recorded: 5/26/2009"
     - title: "IIIIIIIIIIII (12)"
-    # recorded: 8/25/2012
+      note: "recorded: 8/25/2012"
     - title: "Forgiveness in Rot"
-    # recorded: 4/20/2011
+      note: "recorded: 4/20/2011"
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted

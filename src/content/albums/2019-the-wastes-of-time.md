@@ -21,12 +21,13 @@ coverArt: "/albums/2019-the-wastes-of-time.jpg"
 # strips indentation — select the pasted lines and indent them together).
 tracks:
     - title: "Krallice"
-
+      note: "Tracks 1-6"
     - title: "Dimensional Bleedthrough"
-
+      note: "Tracks 7-13"
     - title: "Diotima"
-
+      note: "Tracks 14-20"
     - title: "Years Past Matter"
+      note: "Tracks 21-26"
 
 # Free text, rendered whitespace-as-typed: line breaks and multiple spaces
 # are kept, a blank line starts a new paragraph. Recording info + assorted

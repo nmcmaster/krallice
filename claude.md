@@ -85,10 +85,13 @@ public/
    iframes, so a listener can run them simultaneously, which is intended),
    `ampwallUrl` (plain URL — fallback link form, used when no `ampwallEmbed`). A `tracks`
    entry is either a plain title string or
-   `{ title, initiated?|written?, lyrics?, lyricsBy? }` — `initiated` and
-   `written` are mutually exclusive credit fields shown under the title, and
-   the label matches whichever is used ("initiated" is the band's term for
-   the collaborative process; "written" for the conventional case). `lyrics`
+   `{ title, initiated?|written?, note?, lyrics?, lyricsBy? }` — `initiated`
+   and `written` are mutually exclusive credit fields shown under the title,
+   and the label matches whichever is used ("initiated" is the band's term
+   for the collaborative process; "written" for the conventional case).
+   `note` is free text rendered in that same slot and style, after the
+   credit if both exist — for compilations and archival releases ("Tracks
+   1-6", "recorded: 5/2/2011"). `lyrics`
    (multiline string) gets a Lyrics link opening a native `<dialog>` popup;
    `lyricsBy` is the lyrics credit shown in that popup's header. `tab`
    (string href — a file under `public/` or a page) renders a "Tab" link

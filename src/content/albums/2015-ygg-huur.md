@@ -66,7 +66,7 @@ tracks:
       initiated: "Marston"
       lyricsBy: "Barr"
       lyrics: |
-          There remains no monuments
+          There remain no monuments
           To our vanity
           No cenotaphs
           To subsumed glory

@@ -39,7 +39,11 @@ tracks:
       # provisional: href of a tab (file under public/ or a page) — shows a
       # "Tab" link beside the title. Final tab UX is still undecided.
       tab: "/tabs/second-song.pdf"
-    - "Third Song (no credits or lyrics — plain string is fine)"
+    - title: "Third Song"
+      # free text under the title, same slot and style as the credit line —
+      # for compilations / archival releases (shown after the credit if both):
+      note: "recorded: 5/2/2011"
+    - "Fourth Song (no credits or lyrics — plain string is fine)"
 
 # Optional signature under the release notes, right-aligned, italic; the em
 # dash is added on render ("— NM"). Only shown when the body has notes:

@@ -23,6 +23,10 @@ const albums = defineCollection({
                 title: z.string(),
                 initiated: z.string().optional(),
                 written: z.string().optional(),
+                /** free-text line under the title in the same slot/style as
+                    the initiated/written credit — for compilations and
+                    archival releases ("Tracks 1-6", "recorded: 5/2/2011") */
+                note: z.string().optional(),
                 lyrics: z.string().optional(),
                 lyricsBy: z.string().optional(),
                 /** provisional: href of a tablature (file or page) — renders a

@@ -113,6 +113,11 @@ const lineup =
                         {t.initiated ? `initiated: ${t.initiated}` : `written: ${t.written}`}
                       </p>
                     )}
+                    {t.note && (
+                      <p class="mt-0.5 text-[0.6rem] uppercase tracking-[0.25em] text-stone-500">
+                        {t.note}
+                      </p>
+                    )}
                   </div>
                 </li>
               ))}

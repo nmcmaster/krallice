@@ -93,7 +93,7 @@ html {
     float: left;
     /* nudges the glyph down within its float box; the knob for vertical
        placement (line-height changes the box itself and re-wraps the text) */
-    margin-top: 0.05em;
+    margin-top: 0em;
     padding-right: 0.04em;
     color: #f5f5f4;
 }
