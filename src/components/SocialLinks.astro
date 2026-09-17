@@ -1,0 +1,41 @@
+---
+/**
+ * Row of monochrome service icons (Instagram, Qobuz, Apple Music, Tidal,
+ * Spotify). SVGs live in src/assets/icons — Simple Icons (CC0) except Qobuz
+ * (Arcticons, CC BY-SA 4.0). Icons inherit `currentColor`, so the row's text
+ * color is the only styling knob.
+ */
+import instagram from '../assets/icons/instagram.svg?raw';
+import qobuz from '../assets/icons/qobuz.svg?raw';
+import applemusic from '../assets/icons/applemusic.svg?raw';
+import tidal from '../assets/icons/tidal.svg?raw';
+import spotify from '../assets/icons/spotify.svg?raw';
+
+const links = [
+  { label: 'Instagram', href: 'https://www.instagram.com/ygghuur/', icon: instagram },
+  { label: 'Qobuz', href: 'https://www.qobuz.com/us-en/interpreter/krallice/2689965', icon: qobuz },
+  { label: 'Apple Music', href: 'https://music.apple.com/us/artist/krallice/283560041', icon: applemusic },
+  { label: 'Tidal', href: 'https://tidal.com/artist/4859515/u', icon: tidal },
+  { label: 'Spotify', href: 'https://open.spotify.com/artist/7pICtPXy11dc7D82jsF1Xy', icon: spotify },
+];
+
+// size the raw svg to its wrapper and let it take the link's color
+const sized = (svg: string) =>
+  svg.replace(/<svg /, '<svg class="h-full w-full" fill="currentColor" aria-hidden="true" ');
+---
+
+<ul class="flex flex-wrap items-center justify-center gap-7">
+  {links.map((l) => (
+    <li>
+      <a
+        href={l.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={l.label}
+        title={l.label}
+        class="block size-6 text-stone-400 transition-colors hover:text-stone-100"
+        set:html={sized(l.icon)}
+      />
+    </li>
+  ))}
+</ul>

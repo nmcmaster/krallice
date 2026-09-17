@@ -42,7 +42,12 @@ The register is austere: reference material, not narrative.
 src/
   pages/            index (Begin), discography, about, tablatures, albums/[slug]
   layouts/          BaseLayout.astro — head, nav, fixed backdrop layer
-  components/       Nav.astro
+  components/       Nav.astro, SocialLinks.astro (icon row on About — links
+                    + labels live in the component)
+  assets/icons/     Monochrome service marks: Simple Icons (CC0) except
+                    qobuz.svg (Arcticons, CC BY-SA 4.0 — keep its attribution
+                    comment). Icons use currentColor; the row's text color
+                    is the only styling knob.
   content/albums/   One markdown file per album — THE content organization
                     (frontmatter = all structured data; body = optional notes)
   data/albums.ts    getSortedAlbums(): albums oldest-first (canonical order)
