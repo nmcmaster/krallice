@@ -189,9 +189,9 @@ lineup:
           - "Marston | synth bass, synth regular"
           - "McMaster | clean guitar"
 # Paste the full Bandcamp embed snippet to light up the player:
-bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=313727740/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/porous-resonance-abyss">Porous Resonance Abyss by Krallice</a></iframe>'
+bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2415332396/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/mass-cathexis-2-the-kinetic-infinite">Mass Cathexis 2 - The Kinetic Infinite by Krallice</a></iframe>'
 
-ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14e6-167d-7240-9256-88c2cf66d62a&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Porous Resonance Abyss on Ampwall"></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b14fb-c1c5-75b0-8c74-b2daa92cddb4&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Mass Cathexis 2 - The Kinetic Infinite on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---

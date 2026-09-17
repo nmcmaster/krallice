@@ -161,14 +161,18 @@ tracks:
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
+    recorded October 2019 and March 2020 at Menegroth, The Thousand Caves, Queens NY, as well as mixed/mastered by Colin Marston.
+
+    Dave Ed vocals recorded July 30, 2020 at the Kicker space by Matt "Mauz" Parrillo
 
 # One entry per member, "Name | instruments".
 # The pipe is the parse separator; display formatting lives in [slug].astro.
 lineup:
-    - "Colin Marston | Guitar, Voice"
-    - "Nick McMaster | Bass, Voice"
+    - "Nicholas McMaster | bass, vocals"
+    - "Mick Barr | guitar, vocals"
     - "Lev Weinstein | Drums"
-    - "Mick Barr | Guitar"
+    - "Colin Marston | guitar, keyboards, bass, productions"
+    - "Dave Edwardson | vocals"
 
 # Paste the full Bandcamp embed snippet to light up the player:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=941453581/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/mass-cathexis">Mass Cathexis by Krallice</a></iframe>'

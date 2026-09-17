@@ -18,7 +18,7 @@ interface Props {
 
 const {
   title = 'Krallice',
-  description = 'Krallice — discography and tablatures.',
+  description = 'Black metal or not since 2007.',
   backdrop,
 } = Astro.props;
 
@@ -37,6 +37,7 @@ const ogImage = new URL('/og.png', site).toString();
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content="#050505" />
@@ -44,7 +45,12 @@ const ogImage = new URL('/og.png', site).toString();
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Krallice logo" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
   </head>
   <body class="min-h-screen font-sans text-stone-100 antialiased">
     <div aria-hidden="true" class="fixed inset-0 -z-10 overflow-hidden">
