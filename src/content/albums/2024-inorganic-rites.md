@@ -143,7 +143,6 @@ tracks:
 # are kept, a blank line starts a new paragraph. Recording info + assorted
 # credits (artwork, logo, etc). Double space between sentences to taste.
 engineering: |
-    final caves album.
     recorded, mixed and mastered by Colin at Menegroth, The Thousand Caves
     released with P2 loggia omerta
     Menegroth trees mural and krallice logo by Karlynn Holland
@@ -162,6 +161,9 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0a61-d360-71b0-9800-c6626515c700&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Inorganic Rites on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
+byline: "NM"
 ---
+
+The last Krallice album recorded at Menegroth, the Thousand Caves in Woodhaven Queens.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->
