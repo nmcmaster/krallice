@@ -196,6 +196,8 @@ bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="http
 byline: "NM"
 ---
 
-The first record made since the return to the original instrumentation. A new songwriting process was used for "Grievous Corrector," "Unceasing Path," and "Living Useless Ritual" in that original guitar parts were composed by Nick then learned and adapted by Mick. For "Grievous" and "Living," Mick then wrote the bass that Nick plays. Colin wrote his guitar parts for these in accordance with the usual "initiation" practice, but also wrote the main riffs for the middle section in "Living" which he does vocals over.
+The first record made since the return to the original instrumentation. This album was comissioned by Roadburn festival in the Netherlands. They asked for roughly an hour's worth of completely new music to debut at the festival. In addition, we played two other sets: one of pre-2019 material and another of music from 2020-2024, that being the synth-driven lineup.
+
+A new songwriting process was used for "Grievous Corrector," "Unceasing Path," and "Living Useless Ritual" in that original guitar parts were composed by Nick then learned and adapted by Mick. For "Grievous" and "Living," Mick then wrote the bass that Nick plays. Colin wrote his guitar parts for these in accordance with the usual "initiation" practice, but also wrote the main riffs for the middle section in "Living" which he does vocals over.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->
