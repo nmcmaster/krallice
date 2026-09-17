@@ -51,7 +51,7 @@ lineup:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3719279702/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/orphan-of-sickness">Orphan of Sickness by Krallice</a></iframe>'
 # Ampwall: paste the full embed snippet for a click-to-expand player below
 # the Bandcamp one (collapsed by default; loads nothing until expanded).
-# ampwallEmbed: '<iframe src="https://ampwall.com/..." ...></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b23f3-bee6-7862-a286-ed1826216fea&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Orphan of Sickness on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---

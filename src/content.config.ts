@@ -5,6 +5,10 @@ const albums = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/albums' }),
   schema: z.object({
     title: z.string(),
+    /** optional qualifier shown under the title on the discography tile and
+        album page — a second title line ("The Kinetic Infinite") or a
+        specifier ("Live", "Remasters") */
+    subtitle: z.string().optional(),
     releaseDate: z.coerce.date(),
     orderingDate: z.coerce.date().optional(),
     coverArt: z.string().optional(),

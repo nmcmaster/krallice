@@ -5,6 +5,7 @@
 # Site order + chapter numerals come from releaseDate — nothing to set here.
 
 title: "Demonic Wealth"
+subtitle: "Live"
 releaseDate: 2021-03-05
 # Drop the cover into public/albums/ first. One field drives the header art,
 # the discography tile, the zoom popup, AND the page's ambient backdrop.
@@ -184,7 +185,8 @@ engineering: |
     All songs songwriting: Colin
     All songs words: Mick
 
-    Isolation recording sessions: Drums recorded at the Mouth 3 on a phone
+    Isolation recording sessions:
+    Drums recorded at the Mouth 3 on a phone
     Vocals recorded in the car by the swamp
     Bass recorded.
     Guitars, keyboards, other bass, reamping, mixing, mastering at Menegroth the thousands cave.

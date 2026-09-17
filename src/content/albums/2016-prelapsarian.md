@@ -120,7 +120,7 @@ lineup:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3120368139/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/prelapsarian">Prelapsarian by Krallice</a></iframe>'
 # Ampwall: paste the full embed snippet for a click-to-expand player below
 # the Bandcamp one (collapsed by default; loads nothing until expanded).
-# ampwallEmbed: '<iframe src="https://ampwall.com/..." ...></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b0b1a-7571-7250-ae9c-81cc3cf59c28&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Prelapsarian on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---

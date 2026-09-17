@@ -6,6 +6,9 @@
 # if set) — nothing to set here.
 
 title: "Album Title"
+# Optional second line under the title (discography tile + album page):
+# a continuation ("The Kinetic Infinite") or a specifier ("Live", "Remasters"):
+# subtitle: "Live"
 releaseDate: 2008-07-11
 # Optional: overrides releaseDate for site order + chapter numerals only —
 # never displayed (e.g. to slot a re-recording where it belongs in the story):

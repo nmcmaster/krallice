@@ -4,7 +4,8 @@
 # (year stripped), so slugs must be unique across years.
 # Site order + chapter numerals come from releaseDate — nothing to set here.
 
-title: "Mass Cathexis 2 - The Kinetic Infinite"
+title: "Mass Cathexis 2"
+subtitle: "The Kinetic Infinite"
 releaseDate: 2023-12-01
 # Drop the cover into public/albums/ first. One field drives the header art,
 # the discography tile, the zoom popup, AND the page's ambient backdrop.

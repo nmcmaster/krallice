@@ -64,7 +64,10 @@ public/
    keeps files chronologically sorted on disk — URLs drop it via
    `albumSlug()` in `data/albums.ts` (`/albums/<slug>`), so slugs must be
    unique across years. Frontmatter schema
-   (`src/content.config.ts`): `title`, `releaseDate`, `orderingDate` (optional —
+   (`src/content.config.ts`): `title`, `subtitle` (optional — a second
+   line under the title on the discography tile and album page, in the
+   small uppercase chrome register; for continuations like "The Kinetic
+   Infinite" or specifiers like "Live" / "Remasters"), `releaseDate`, `orderingDate` (optional —
    overrides `releaseDate` in `getSortedAlbums()` for site order and chapter
    numerals; never displayed), `coverArt`, `tracks[]`,
    `engineering` (free-text string rendered whitespace-as-typed: line breaks
@@ -181,7 +184,15 @@ Keep new UI in the chrome register, new content in serif.
    (`.embed-scaled` in global.css, 0.83) to Bandcamp's 120px height — the
    snippet is untouched, pointer events map through the transform, and the
    wrapper clips the iframe's inflated layout box so nothing scrolls
-   sideways. Without an `ampwallEmbed`, a right-aligned
+   sideways. Simultaneous playback of both players is a feature; when both
+   embeds exist, a small "Disable simultaneous play" toggle (right-aligned
+   under Ampwall, remembered in `localStorage`) opts out. Mechanism: the
+   players are cross-origin iframes with no pause API, but a click inside
+   one moves `document.activeElement` to that iframe, so while the toggle is
+   on a 200ms poll watches for that and reloads the *other* iframe
+   (`src = src`) if it's been interacted with since its last reset — which
+   stops its audio. Crude but the only lever available; position in the
+   reset player is lost. Without an `ampwallEmbed`, a right-aligned
    "Also on Ampwall →" link instead (new tab, so the Bandcamp player isn't
    killed). Gotcha: Ampwall sits behind a Cloudflare bot check, so curl and
    headless Chrome get a challenge page (broken frame) — verify the player
@@ -227,7 +238,6 @@ art floats centered with gaps. If a real record makes this ugly, options are
   points to wire once decided: the Tablatures page itself, and the per-track
   `tab` link in album tracklists (currently a bare href hook).
 - Remaining discography entries and embeds; release-notes bodies are empty.
-- About page — placeholder prose.
 - `public/logo.png` (black on transparent) was derived from `logo_white.png`:
   its alpha channel filled black, alpha-cropped. `public/og.png` is that logo
   scaled to fit 1200×630 with 12% padding, centered, transparent background.

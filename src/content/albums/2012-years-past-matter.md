@@ -170,7 +170,7 @@ lineup:
 bandcampEmbed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4027888967/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://krallice.bandcamp.com/album/years-past-matter">Years Past Matter by Krallice</a></iframe>'
 # Ampwall: paste the full embed snippet for a click-to-expand player below
 # the Bandcamp one (collapsed by default; loads nothing until expanded).
-# ampwallEmbed: '<iframe src="https://ampwall.com/..." ...></iframe>'
+ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?albumId=019b240a-079f-78f3-ace1-872e8f96a232&controlStyle=horizontal&playerWidth=650&tracklist=false&borderRadius=0" style="width: 100%; max-width: 650px; height: 145px; border: 0; border-radius: 0px;" loading="lazy" title="Listen to Years Past Matter on Ampwall"></iframe>'
 # Or, with no embed, ampwallUrl renders a plain link instead:
 # ampwallUrl: "https://ampwall.com/a/krallice"
 ---
