@@ -130,6 +130,6 @@ html {
 }
 @media (max-width: 639px) {
     .embed-scaled {
-        --native-h: 120px;
+        --native-h: 110px;
     }
 }
