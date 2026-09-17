@@ -112,7 +112,11 @@ html {
    fills the column. Drop the class to revert. */
 .embed-scaled {
     --scale: 0.83;
-    height: calc(145px * var(--scale));
+    /* the Ampwall player's own height: 145px at desktop widths; its narrow
+       layout is shorter, so the phone value below keeps the iframe from
+       holding empty space under the player (Nick measured ~100px scaled) */
+    --native-h: 145px;
+    height: calc(var(--native-h) * var(--scale));
     /* the iframe's layout box is 1/scale wide; the transform shrinks what's
        painted, not the box, so clip it or the page scrolls sideways */
     overflow: hidden;
@@ -120,6 +124,12 @@ html {
 .embed-scaled iframe {
     width: calc(100% / var(--scale)) !important;
     max-width: none !important;
+    height: var(--native-h) !important;
     transform: scale(var(--scale));
     transform-origin: top left;
+}
+@media (max-width: 639px) {
+    .embed-scaled {
+        --native-h: 120px;
+    }
 }

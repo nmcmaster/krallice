@@ -200,7 +200,10 @@ Keep new UI in the chrome register, new content in serif.
    (`.embed-scaled` in global.css, 0.83) to Bandcamp's 120px height — the
    snippet is untouched, pointer events map through the transform, and the
    wrapper clips the iframe's inflated layout box so nothing scrolls
-   sideways. Simultaneous playback of both players is a feature; when both
+   sideways. The player's native height is a variable (`--native-h`):
+   145px on desktop, 120px under the `sm` breakpoint because Ampwall's
+   narrow layout is shorter and a 145px iframe left a visible gap under
+   it on phones. Tune that number if Ampwall changes its mobile card. Simultaneous playback of both players is a feature; when both
    embeds exist, a small "Disable simultaneous play" toggle (right-aligned
    on the Bandcamp label row, remembered in `localStorage`) opts out. Mechanism: the
    players are cross-origin iframes with no pause API, but a click inside
