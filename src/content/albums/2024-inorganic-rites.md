@@ -164,6 +164,6 @@ ampwallEmbed: '<iframe src="https://ampwall.com/services/PlayerCard/v1/content?a
 byline: "NM"
 ---
 
-The last Krallice album recorded at Menegroth, the Thousand Caves in Woodhaven Queens.
+The last Krallice album recorded at Menegroth, the Thousand Caves in Woodhaven, Queens.
 
 <!-- Optional release notes (markdown). Leave empty for none. -->
