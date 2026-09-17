@@ -47,7 +47,7 @@ tracks:
            “Grievous Corrector” is an interpolation of “Mnemosyne part 3” by Friedrich Hölderlin, translated by David Ferry
 
     - title: "Kill the Guardian"
-      initiated: "McMaster"
+      initiated: "Barr"
       lyricsBy: "Barr / Marston / McMaster"
       lyrics: |
           All those fires like resurrections
@@ -124,7 +124,7 @@ tracks:
           like some hound upon the trail of blood that leads to discovered death.
 
     - title: "Her Green Arms"
-      initiated: "McMaster"
+      initiated: "Barr"
       lyricsBy: "Barr / McMaster"
       lyrics: |
           Who had weathered so many storms and become as gentle as water
